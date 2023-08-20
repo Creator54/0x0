@@ -21,6 +21,7 @@ pkgs.mkShell rec {
     pip install -r requirements.txt
     eval "$extras"
     export FLASK_APP=fhost
+    flask db upgrade
   '';
   extras = ''
     pymod() {

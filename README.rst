@@ -136,9 +136,5 @@ group.
 HOW TO RUN
 ---------------------------------
 
-``export FLASK_APP=fhost``
-
-``flask db upgrade``
-
-``flask run``
+``nix-shell --run "flask run"``
 
