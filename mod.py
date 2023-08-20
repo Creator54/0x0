@@ -5,7 +5,7 @@ from sys import stdout
 import time
 
 from textual.app import App, ComposeResult
-from textual.widgets import DataTable, Header, Footer, TextLog, Static, Input
+from textual.widgets import DataTable, Header, Footer, Static, Input, RichLog as TextLog
 from textual.containers import Horizontal, Vertical
 from textual.screen import Screen
 from textual import log
