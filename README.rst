@@ -138,3 +138,5 @@ HOW TO RUN
 
 ``nix-shell --run "flask run"``
 
+``docker build -t 0x0 . && docker run -d -p 5000:5000 0x0``
+
