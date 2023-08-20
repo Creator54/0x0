@@ -6,7 +6,7 @@ requests
 Jinja2
 Flask
 flask_sqlalchemy
-python_magic
+#python_magic
 
 # vscan
 clamd
