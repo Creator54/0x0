@@ -132,3 +132,13 @@ For instance, if you are using the excellent `FireHOL <https://firehol.org/>`_,
 it’s very easy to create a group on your system and use it as a condition
 in your firewall rules. You would then run the application server under that
 group.
+
+HOW TO RUN
+---------------------------------
+
+``export FLASK_APP=fhost``
+
+``flask db upgrade``
+
+``flask run``
+
